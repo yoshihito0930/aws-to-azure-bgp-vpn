@@ -73,4 +73,4 @@ module "aws-to-azure-bgp-vpn" {
 ## Confirmation of Network Connectivity
 
 - aws to azure : no need to configure NSG on azure side
-- azure to aws : aws side SG setting is required (Allow access from azure side vnet cidr)
+- azure to aws : aws side SG setting is required (Allow access from azure side vnet cidr)# aws-to-azure-bgp-vpn
