@@ -12,7 +12,7 @@ variable "common_tags" {
 
 variable "aws_location" {
   type        = string
-  default     = "us-east-1"
+  default     = "ap-northeast-1"
   description = "AWS Region"
 }
 
@@ -33,7 +33,7 @@ variable "aws_vpc_id" {
 
 variable "azure_location" {
   type        = string
-  default     = "eastus"
+  default     = "japaneast"
   description = "Azure Region"
 }
 
