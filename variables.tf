@@ -24,7 +24,7 @@ variable "aws_location_prefix" {
 
 variable "aws_vpc_id" {
   type        = string
-  default     = ""
+  default     = "vpc-096a5831b5bc7136b"
 }
 
 ###
@@ -57,7 +57,7 @@ variable "azure_vnet_name" {
 
 variable "azure_gateway_subnet_cidr" {
   type        = string
-  default     = ""
+  default     = "192.168.0.0/16"
   description = "Azure Gateway Subnet CIDR\nThe cidr of the GatewaySubnet must be a subset of the cidr of the vnet"
 }
 
