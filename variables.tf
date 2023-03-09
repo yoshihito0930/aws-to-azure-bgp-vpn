@@ -45,7 +45,7 @@ variable "azure_location_prefix" {
 
 variable "azure_resource_group" {
   type        = string
-  default     = "AzureRG"
+  default     = "test-tidb"
   description = "Azure Resource Group"
 }
 
