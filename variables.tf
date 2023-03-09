@@ -18,7 +18,7 @@ variable "aws_location" {
 
 variable "aws_location_prefix" {
   type        = string
-  default     = "tidb-test-vpc-ap-northeast-1"
+  default     = "use1-aws-to-azure-vpn"
   description = "Name for Created Resources"
 }
 
@@ -57,7 +57,7 @@ variable "azure_vnet_name" {
 
 variable "azure_gateway_subnet_cidr" {
   type        = string
-  default     = "192.168.0.0/16"
+  default     = "192.168.254.128/27"
   description = "Azure Gateway Subnet CIDR\nThe cidr of the GatewaySubnet must be a subset of the cidr of the vnet"
 }
 
