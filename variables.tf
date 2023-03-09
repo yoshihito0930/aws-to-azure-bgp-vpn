@@ -18,7 +18,7 @@ variable "aws_location" {
 
 variable "aws_location_prefix" {
   type        = string
-  default     = "USE1-AWStoAzureVPN"
+  default     = "tidb-test-vpc-ap-northeast-1"
   description = "Name for Created Resources"
 }
 
@@ -51,7 +51,7 @@ variable "azure_resource_group" {
 
 variable "azure_vnet_name" {
   type        = string
-  default     = "AzureVNet"
+  default     = "tidb-test-vnet"
   description = "Azure Virtual Network"
 }
 
